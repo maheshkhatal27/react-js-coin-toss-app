@@ -1,0 +1,82 @@
+.coin-toss-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.toss-container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  max-width: 80%;
+}
+.heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.para {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.button {
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: #f9d423;
+  color: #a35200;
+  height: 30px;
+  width: 90px;
+  cursor: pointer;
+}
+.head-tail-total-container {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+.result {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin: 5px;
+  padding: 15px;
+}
+
+.img-resize {
+  height: 190px;
+  width: 190px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 26px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .img-resize {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  .result {
+    font-size: 15px;
+  }
+  .toss-container {
+    width: 90%;
+    height: 90%;
+  }
+}
